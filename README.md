@@ -15,7 +15,8 @@
 - A triangle is the most simple 2D shape, so it would make sense to combine them to make any other 2D shape.
 - A triangle only consists of three lines, so there are amazing algorithms already built to build and draw triangles.
 
-![cube](https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.math.brown.edu%2Ftbanchof%2FBeyond3d%2Fchapter8%2Fsection01.html&psig=AOvVaw3ctIrmFLCBdmGOKe99TN8r&ust=1736989069676000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCOjOxdXC9ooDFQAAAAAdAAAAABAE)
+#### 3D cube points in normal field
+![cube](https://www.math.brown.edu/tbanchof/Beyond3d/Images/chapter8/image04.jpg)
 
 #### We can describe a cube's location with it's 8 points
 - This requires 3 coordinates per point (x,y,z)
