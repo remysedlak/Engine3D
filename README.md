@@ -151,19 +151,20 @@ void MultiplyMatrixVector(vec3d& i, vec3d& o, mat4x4& m)
 The fourth value, w, is used for properly scaling our objects to the normalized screen
 - For safety, we won't risk performing divison by zero.
 # Glossary
+
+### Vector
+- In mathematics and physics, vector is a term that refers to quantities that cannot be expressed by a single number, or to elements of some vector spaces. 
+- They have to be expressed by both magnitude and direction.
+- 
+### Normalizing a vector
+To normalize a vector means to scale it so that its magnitude (length) becomes 1 while maintaining its direction. (Think about the cube's 3D coordinates)
+
 ### Projection matrix
 In linear algebra, a projection matrix is a matrix associated to a linear operator that maps vectors into their projections onto a subspace.
 
 ### Field of view (theta)
 The field of view specifies the angle of the camera's view. It describes the angular extent of the scene that a camera can capture, meaning a wider FOV indicates a wider viewing angle and a narrower FOV indicates a more zoomed-in angle;
 
-### Normalizing a vector
-To normalize a vector means to scale it so that its magnitude (length) becomes 1 while maintaining its direction. (Think about the cube's 3D coordinates)
-
-### Vector
-- In mathematics and physics, vector is a term that refers to quantities that cannot be expressed by a single number, or to elements of some vector spaces. 
-- They have to be expressed by both magnitude and direction.
-- 
 ### View Frustum 
 A view frustum is the 3D region that represents the visible area of the scene from the camera's perspective. It is shaped like a truncated pyramid and is bounded by:
 - Near clipping plane (z near): The plane closest to the camera where objects start to be rendered. 
