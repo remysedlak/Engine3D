@@ -23,7 +23,7 @@ struct vec3d
 	float x, y, z;
 };
 ```
-##### A point in the 3D plane requires an x, y, and z value.
+- A point in the 3D plane requires an x, y, and z value.
 ---
 ```
 struct triangle
@@ -31,7 +31,7 @@ struct triangle
 	vec3d p[3];
 };
 ```
-##### A triangle has 3 points that can be used to draw it's lines
+- A triangle has 3 points that can be used to draw it's lines
 ---
 ```
 struct mesh
@@ -39,7 +39,7 @@ struct mesh
 	vector<triangle> tris;
 };
 ```
-##### A mesh is a collection of triangles with points connected together to form a more complex shape.
+- A mesh is a collection of triangles with points connected together to form a more complex shape.
 ---
 ```
 struct mat4x4
@@ -47,7 +47,7 @@ struct mat4x4
 	float m[4][4] = { 0 };
 };
 ```
-##### A 4x4 projection will also be needed for mapping our shapes onto a 2D subspace
+- A 4x4 projection matrix will also be needed for mapping our shapes onto a 2D subspace
 ---
 
 #### 3D cube points in normal field
