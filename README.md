@@ -153,9 +153,13 @@ The fourth value, w, is used for properly scaling our objects to the normalized 
 # Glossary
 
 ### Vector
-- In mathematics and physics, vector is a term that refers to quantities that cannot be expressed by a single number, or to elements of some vector spaces. 
+In mathematics and physics, vector is a term that refers to quantities that cannot be expressed by a single number, or to elements of some vector spaces. 
 - They have to be expressed by both magnitude and direction.
-- 
+
+### Matrix multiplication
+In mathematics, specifically in linear algebra, matrix multiplication is a binary operation that produces a matrix from two matrices. 
+- For matrix multiplication, the number of columns in the first matrix must be equal to the number of rows in the second matrix.
+
 ### Normalizing a vector
 To normalize a vector means to scale it so that its magnitude (length) becomes 1 while maintaining its direction. (Think about the cube's 3D coordinates)
 
