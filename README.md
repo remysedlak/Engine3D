@@ -3,7 +3,7 @@
 ![gif](https://github.com/user-attachments/assets/e739e446-7e70-4158-8abf-1b3d9dcc05d3)
 
 #### This mini project aimed to explain past concepts from [MATH0280](https://catalog.upp.pitt.edu/preview_course_nopop.php?catoid=5&coid=6923)
-- I took LA in the sping of my Freshman year.
+- I took LA in the spring of my Freshman year.
 - I was really fascinated with tensors and the powers of LA operations.
 - While practicing LeetCode problems, I ran into past concepts that I wanted to refamiliar myself with.
 - My curiosities led me to explore the real world implementations of LA.
@@ -160,6 +160,10 @@ The field of view specifies the angle of the camera's view. It describes the ang
 ### Normalizing a vector
 To normalize a vector means to scale it so that its magnitude (length) becomes 1 while maintaining its direction. (Think about the cube's 3D coordinates)
 
+### Vector
+- In mathematics and physics, vector is a term that refers to quantities that cannot be expressed by a single number, or to elements of some vector spaces. 
+- They have to be expressed by both magnitude and direction.
+- 
 ### View Frustum 
 A view frustum is the 3D region that represents the visible area of the scene from the camera's perspective. It is shaped like a truncated pyramid and is bounded by:
 - Near clipping plane (z near): The plane closest to the camera where objects start to be rendered. 
