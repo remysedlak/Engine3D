@@ -15,6 +15,41 @@
 - A triangle is the most simple 2D shape, so it would make sense to combine them to make any other 2D shape.
 - A triangle only consists of three lines, so there are amazing algorithms already built to build and draw triangles.
 
+#### C++ 3D representation
+---
+```
+struct vec3d
+{
+	float x, y, z;
+};
+```
+##### A point in the 3D plane requires an x, y, and z value.
+---
+```
+struct triangle
+{
+	vec3d p[3];
+};
+```
+##### A triangle has 3 points that can be used to draw it's lines
+---
+```
+struct mesh
+{
+	vector<triangle> tris;
+};
+```
+##### A mesh is a collection of triangles with points connected together to form a more complex shape.
+---
+```
+struct mat4x4
+{
+	float m[4][4] = { 0 };
+};
+```
+##### A 4x4 projection will also be needed for mapping our shapes onto a 2D subspace
+---
+
 #### 3D cube points in normal field
 ![cube](https://www.math.brown.edu/tbanchof/Beyond3d/Images/chapter8/image04.jpg)
 
