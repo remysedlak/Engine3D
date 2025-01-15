@@ -91,12 +91,12 @@ meshCube.tris = {
 
 };
 ```
-- This declares a hardcoded mesh for a 3D cube
-- These triangle lists declare the points AND the triangles used to build more complex shapes
+- This declares a hardcoded mesh for a 3D cube.
+- These triangle lists declare the points AND the triangles that connect and build more complex shapes.
 
 #### These triangles cannot be drawn onto the 2D screen yet
-- We need to use projection so that our 3D verticies can display
-- The aspect ratio is vital and describes the relation between the **width** and **height** of the projected image
+- Ultimately, projection is required to display 3D data on a 2D subspace.
+- The aspect ratio is vital and describes the relation between the **width** and **height** of the projected image.
 - A screen is a rectangle but can come in many different aspect ratios, so it's useful to reduce the 3D objects into a normalized screen space. 
 ![normalized space](https://i.sstatic.net/WNfIA.png)
 - Now anything past our domain (-1,1), will not be displayed to the screen, so the field of view will now determine how much of the 3D space is seen.
