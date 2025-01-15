@@ -91,6 +91,8 @@ meshCube.tris = {
 
 };
 ```
+- This declares a hardcoded mesh for a 3D cube
+- These triangle lists declare the points AND the triangles used to build more complex shapes
 
 #### These triangles cannot be drawn onto the 2D screen yet
 - We need to use projection so that our 3D verticies can display
