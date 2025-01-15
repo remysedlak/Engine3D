@@ -71,8 +71,11 @@ meshCube.tris = {
 #### Perspective Projection Matrix
 
 ![static](https://i.sstatic.net/1qkwc.png)
-Therefore, by multiplying our 3D matrix by this projection matrix, we can plot our points on a 2D setting; 
-We can perform the multiplication with C++ array manipulation.
+#####
+- Therefore, by multiplying our 3D matrix by this projection matrix, we can plot our points on a 2D setting; 
+- We can perform the multiplication with C++ array manipulation.
+
+#### C++
 ```
 // Projection Matrix
 
