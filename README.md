@@ -98,7 +98,7 @@ meshCube.tris = {
 - A screen is a rectangle but can come in many different aspect ratios, so it's useful to reduce the 3D objects into a normalized screen space. 
 ![normalized space](https://i.sstatic.net/WNfIA.png)
 - Now anything past our domain (-1,1), will not be displayed to the screen, so the field of view will now determine how much of the 3D space is seen.
-- A narrow FOV causes the effect of zooming in, and wide FOV's zoom out, allowing more of a field to be seen. This is the design of a [View Frustrum](https://github.com/remysedlak/Engine3D?tab=readme-ov-file#view-frustum)
+- A narrow FOV causes the effect of zooming in, and wide FOV's zoom out, allowing more of a field to be seen. This is the design of a [view frustrum](https://github.com/remysedlak/Engine3D?tab=readme-ov-file#view-frustum).
 
 
 - By accessing our far Z value, and drawing a perpendicular line, we can access an opposite and adjacent angle, so we can use tangent
