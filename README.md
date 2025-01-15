@@ -69,21 +69,8 @@ meshCube.tris = {
 - By accessing our far Z value, and drawing a perpendicular line, we can access an opposite and adjacent angle, so we can use tangent
 
 #### Perspective Projection Matrix
-```
--------------------
-a = width/height
-t = tan(fov theta/2)
-zF = z far
-zN = z near
-q = zF/zF-zN
--------------------
-	 _							_
-	|1/a*t		0		0		0|
-    |0			1/t		0		0|
-P = |0			0		q		1|
-	|0			0		-zN*q	0|
-	¯¯							¯¯
-```
+
+![static](https://i.sstatic.net/1qkwc.png)
 Therefore, by multiplying our 3D matrix by this projection matrix, we can plot our points on a 2D setting; 
 We can perform the multiplication with C++ array manipulation.
 ```
