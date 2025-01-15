@@ -144,9 +144,9 @@ void MultiplyMatrixVector(vec3d& i, vec3d& o, mat4x4& m)
 		o.x /= w; o.y /= w; o.z /= w;
 	}
 }
+```
 The fourth value, w, is used for properly scaling our objects to the normalized screen
 - For safety, we won't risk performing divison by zero.
-```
 # Glossary
 ### Projection matrix
 In linear algebra, a projection matrix is a matrix associated to a linear operator that maps vectors into their projections onto a subspace.
