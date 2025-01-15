@@ -127,8 +127,8 @@ matProj.m[3][2] = (-fFar * fNear) / (fFar - fNear);
 matProj.m[2][3] = 1.0f;
 matProj.m[3][3] = 0.0f;
 ```
-
-To transform our matrix, we will use **matrix multiplication**
+matProj represents the matrix we will use on our 3D vector.
+- To transform our matrix, we will use **matrix multiplication**
 
 
 ```
@@ -144,6 +144,8 @@ void MultiplyMatrixVector(vec3d& i, vec3d& o, mat4x4& m)
 		o.x /= w; o.y /= w; o.z /= w;
 	}
 }
+The fourth value, w, is used for properly scaling our objects to the normalized screen
+- For safety, we won't risk performing divison by zero.
 ```
 # Glossary
 ### Projection matrix
