@@ -161,4 +161,4 @@ A view frustum is the 3D region that represents the visible area of the scene fr
 - Far clipping plane (z far): The plane furthest from the camera where objects stop being rendered. 
 Objects outside this range (closer than z near​ or further than z far) are clipped and won't be displayed.
 
-![frustrum](https://www.google.com/url?sa=i&url=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FViewing_frustum&psig=AOvVaw1qZenTco5XxZwAQ4J9wRKp&ust=1736987337175000&source=images&cd=vfe&opi=89978449&ved=0CBAQjRxqFwoTCIj46qK89ooDFQAAAAAdAAAAABAE)
+![frustrum](https://learnopengl.com/img/guest/2021/Frustum_culling/VisualCameraFrustum.png)
