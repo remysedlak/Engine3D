@@ -4,8 +4,9 @@
 
 #### This mini project aimed to explain past concepts from [MATH0280](https://catalog.upp.pitt.edu/preview_course_nopop.php?catoid=5&coid=6923)
 - I took LA in the sping of my Freshman year.
-- I was really fascinated with tensors and the powers of LA operations
-- My curiosities led me to explore the real world implementations
+- I was really fascinated with tensors and the powers of LA operations.
+- While practicing LeetCode problems, I ran into past concepts that I wanted to refamiliar myself with.
+- My curiosities led me to explore the real world implementations of LA.
 
 # My Insights and Findings
 
