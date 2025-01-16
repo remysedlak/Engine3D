@@ -1,18 +1,12 @@
 # Exploring 3D Graphics in C++ Through Linear Algebra Concepts
 
 ![gif](https://github.com/user-attachments/assets/e739e446-7e70-4158-8abf-1b3d9dcc05d3)
-## Licensing Information
-
-- Portions of this project, specifically `Engine3D.c` and `olcConsoleGameEngine.h`, are licensed under the OLC-3 License:
-  [OLC-3 License](https://github.com/OneLoneCoder/Javidx9/blob/master/LICENCE.md)
-  © 2018-2022 OneLoneCoder.com.
 
 #### This mini project aimed to explain past concepts from [MATH0280](https://catalog.upp.pitt.edu/preview_course_nopop.php?catoid=5&coid=6923)
 - I took LA in the spring of my Freshman year.
 - I was really fascinated with tensors and the powers of LA operations.
 - While practicing LeetCode problems, I ran into past concepts that I wanted to refamiliar myself with.
 - My curiosities led me to explore the real world implementations of LA.
-
 
 # My Insights and Findings
 
@@ -171,6 +165,8 @@ In mathematics, specifically in linear algebra, matrix multiplication is a binar
 ### Normalizing a vector
 To normalize a vector means to scale it so that its magnitude (length) becomes 1 while maintaining its direction. (Think about the cube's 3D coordinates)
 
+
+
 ### Projection matrix
 In linear algebra, a projection matrix is a matrix associated to a linear operator that maps vectors into their projections onto a subspace.
 
@@ -184,3 +180,9 @@ A view frustum is the 3D region that represents the visible area of the scene fr
 Objects outside this range (closer than z near​ or further than z far) are clipped and won't be displayed.
 
 ![frustrum](https://learnopengl.com/img/guest/2021/Frustum_culling/VisualCameraFrustum.png)
+---
+## Licensing Information
+
+- Portions of this project, specifically `Engine3D.c` and `olcConsoleGameEngine.h`, are licensed under the OLC-3 License:
+  [OLC-3 License](https://github.com/OneLoneCoder/Javidx9/blob/master/LICENCE.md)
+  © 2018-2022 OneLoneCoder.com.
