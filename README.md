@@ -181,7 +181,7 @@ Objects outside this range (closer than z near​ or further than z far) are cli
 
 ![frustrum](https://learnopengl.com/img/guest/2021/Frustum_culling/VisualCameraFrustum.png)
 ---
-## Licensing Information
+# Licensing Information
 
 - Portions of this project, specifically `Engine3D.c` and `olcConsoleGameEngine.h`, are licensed under the OLC-3 License:
   [OLC-3 License](https://github.com/OneLoneCoder/Javidx9/blob/master/LICENCE.md)
