@@ -2,6 +2,12 @@
 
 ![gif](https://github.com/user-attachments/assets/e739e446-7e70-4158-8abf-1b3d9dcc05d3)
 
+## License and Attribution
+Portions of this project use code from the [OneLoneCoder/Javidx9 repository](https://github.com/OneLoneCoder/Javidx9), © 2018-2022 OneLoneCoder.com, licensed under the OLC-3 License. 
+
+Redistribution and use in source and binary forms, with or without modification, are permitted provided the following conditions are met:
+(Include the full OLC-3 License here or link to it.)
+
 #### This mini project aimed to explain past concepts from [MATH0280](https://catalog.upp.pitt.edu/preview_course_nopop.php?catoid=5&coid=6923)
 - I took LA in the spring of my Freshman year.
 - I was really fascinated with tensors and the powers of LA operations.
