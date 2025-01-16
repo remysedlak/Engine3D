@@ -1,18 +1,18 @@
 # Connecting Ideas Between C++ Graphics and Linear Algebra
 
 ![gif](https://github.com/user-attachments/assets/e739e446-7e70-4158-8abf-1b3d9dcc05d3)
+## Licensing Information
 
-## License and Attribution
-Portions of this project use code from the [OneLoneCoder/Javidx9 repository](https://github.com/OneLoneCoder/Javidx9), © 2018-2022 OneLoneCoder.com, licensed under the OLC-3 License. 
-
-Redistribution and use in source and binary forms, with or without modification, are permitted provided the following conditions are met:
-(Include the full OLC-3 License here or link to it.)
+- Portions of this project, specifically `Engine3D.c` and `olcConsoleGameEngine.h`, are licensed under the OLC-3 License:
+  [OLC-3 License](https://github.com/OneLoneCoder/Javidx9/blob/master/LICENCE.md)
+  © 2018-2022 OneLoneCoder.com.
 
 #### This mini project aimed to explain past concepts from [MATH0280](https://catalog.upp.pitt.edu/preview_course_nopop.php?catoid=5&coid=6923)
 - I took LA in the spring of my Freshman year.
 - I was really fascinated with tensors and the powers of LA operations.
 - While practicing LeetCode problems, I ran into past concepts that I wanted to refamiliar myself with.
 - My curiosities led me to explore the real world implementations of LA.
+
 
 # My Insights and Findings
 
