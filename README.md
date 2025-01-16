@@ -4,7 +4,7 @@
 
 ## Introduction
 
-This mini-project explores the intersection of 3D graphics and Linear Algebra (LA). Inspired by concepts learned in [MATH0280](https://catalog.upp.pitt.edu/preview_course_nopop.php?catoid=5&coid=6923) during my freshman year, I set out to understand the implementation of LA in a practical setting. Concepts like tensors and LA operations have always fascinated me, and I wanted to refamiliarize myself with them while solving related problems. This journey led me to develop a basic 3D engine in C++.
+This mini-project explores the intersection of 3D graphics and Linear Algebra (LA). Inspired by concepts learned in [MATH0280](https://catalog.upp.pitt.edu/preview_course_nopop.php?catoid=5&coid=6923) during my freshman year, I set out to understand the implementation of LA in a practical setting. Concepts like tensors and LA operations have always fascinated me, and I wanted to refamiliarize myself with them while solving related problems. This journey led me to explore the fundamentals of basic 3D engines in C++.
 
 ## Key Concepts
 
