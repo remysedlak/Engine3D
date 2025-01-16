@@ -160,6 +160,8 @@ In mathematics and physics, vector is a term that refers to quantities that cann
 In mathematics, specifically in linear algebra, matrix multiplication is a binary operation that produces a matrix from two matrices. 
 - For matrix multiplication, the number of columns in the first matrix must be equal to the number of rows in the second matrix.
 
+![matrix mult](https://www.mathsisfun.com/algebra/images/matrix-multiply-a.svg)
+
 ### Normalizing a vector
 To normalize a vector means to scale it so that its magnitude (length) becomes 1 while maintaining its direction. (Think about the cube's 3D coordinates)
 
