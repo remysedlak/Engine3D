@@ -1,5 +1,5 @@
 ## Licensing Information
 
-- Portions of this project, specifically [name or description of files/modules], are licensed under the OLC-3 License:
-  (Include the full OLC-3 license here or link to it.)
+- Portions of this project are licensed under the OLC-3 License:
+  https://github.com/OneLoneCoder/Javidx9?tab=License-1-ov-file#license-olc-3
   © 2018-2022 OneLoneCoder.com.
